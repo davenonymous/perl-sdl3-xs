@@ -1,0 +1,206 @@
+Summary
+=======
+callback      16 bound,     0 skipped
+constant    2194 bound,   180 skipped
+function    1068 bound,    10 skipped
+header        56 bound,     3 skipped
+record       167 bound,     0 skipped
+
+Skipped declarations
+====================
+SDL.h                constant   SDL_h_                                        not a constant expression: expected expression
+SDL_assert.h         constant   SDL_AssertBreakpoint                          function-like macro
+SDL_assert.h         constant   SDL_FUNCTION                                  not a compile-time constant
+SDL_assert.h         constant   SDL_TriggerBreakpoint                         function-like macro
+SDL_assert.h         constant   SDL_assert                                    function-like macro
+SDL_assert.h         constant   SDL_assert_always                             function-like macro
+SDL_assert.h         constant   SDL_assert_h_                                 not a constant expression: expected expression
+SDL_assert.h         constant   SDL_assert_paranoid                           function-like macro
+SDL_assert.h         constant   SDL_assert_release                            function-like macro
+SDL_assert.h         constant   SDL_disabled_assert                           function-like macro
+SDL_assert.h         constant   SDL_enabled_assert                            function-like macro
+SDL_asyncio.h        constant   SDL_asyncio_h_                                not a constant expression: expected expression
+SDL_atomic.h         constant   SDL_AtomicDecRef                              function-like macro
+SDL_atomic.h         constant   SDL_AtomicIncRef                              function-like macro
+SDL_atomic.h         constant   SDL_CPUPauseInstruction                       function-like macro
+SDL_atomic.h         constant   SDL_CompilerBarrier                           function-like macro
+SDL_atomic.h         constant   SDL_MemoryBarrierAcquire                      function-like macro
+SDL_atomic.h         constant   SDL_MemoryBarrierRelease                      function-like macro
+SDL_atomic.h         constant   SDL_atomic_h_                                 not a constant expression: expected expression
+SDL_audio.h          constant   SDL_AUDIO_BITSIZE                             function-like macro
+SDL_audio.h          constant   SDL_AUDIO_BYTESIZE                            function-like macro
+SDL_audio.h          constant   SDL_AUDIO_FRAMESIZE                           function-like macro
+SDL_audio.h          constant   SDL_AUDIO_ISBIGENDIAN                         function-like macro
+SDL_audio.h          constant   SDL_AUDIO_ISFLOAT                             function-like macro
+SDL_audio.h          constant   SDL_AUDIO_ISINT                               function-like macro
+SDL_audio.h          constant   SDL_AUDIO_ISLITTLEENDIAN                      function-like macro
+SDL_audio.h          constant   SDL_AUDIO_ISSIGNED                            function-like macro
+SDL_audio.h          constant   SDL_AUDIO_ISUNSIGNED                          function-like macro
+SDL_audio.h          constant   SDL_DEFINE_AUDIO_FORMAT                       function-like macro
+SDL_audio.h          constant   SDL_audio_h_                                  not a constant expression: expected expression
+SDL_begin_code.h     header     SDL_begin_code.h                              excluded by header filter
+SDL_bits.h           constant   SDL_bits_h_                                   not a constant expression: expected expression
+SDL_blendmode.h      constant   SDL_blendmode_h_                              not a constant expression: expected expression
+SDL_camera.h         constant   SDL_camera_h_                                 not a constant expression: expected expression
+SDL_clipboard.h      constant   SDL_clipboard_h_                              not a constant expression: expected expression
+SDL_clipboard.h      function   SDL_SetClipboardData                          more than one callback parameter
+SDL_cpuinfo.h        constant   SDL_cpuinfo_h_                                not a constant expression: expected expression
+SDL_dialog.h         constant   SDL_dialog_h_                                 not a constant expression: expected expression
+SDL_dlopennote.h     constant   SDL_DLNOTE_JOIN                               function-like macro
+SDL_dlopennote.h     constant   SDL_DLNOTE_JOIN2                              function-like macro
+SDL_dlopennote.h     constant   SDL_DLNOTE_JSON_ARRAY                         function-like macro
+SDL_dlopennote.h     constant   SDL_DLNOTE_JSON_ARRAY1                        function-like macro
+SDL_dlopennote.h     constant   SDL_DLNOTE_JSON_ARRAY2                        function-like macro
+SDL_dlopennote.h     constant   SDL_DLNOTE_JSON_ARRAY3                        function-like macro
+SDL_dlopennote.h     constant   SDL_DLNOTE_JSON_ARRAY4                        function-like macro
+SDL_dlopennote.h     constant   SDL_DLNOTE_JSON_ARRAY5                        function-like macro
+SDL_dlopennote.h     constant   SDL_DLNOTE_JSON_ARRAY6                        function-like macro
+SDL_dlopennote.h     constant   SDL_DLNOTE_JSON_ARRAY7                        function-like macro
+SDL_dlopennote.h     constant   SDL_DLNOTE_JSON_ARRAY8                        function-like macro
+SDL_dlopennote.h     constant   SDL_DLNOTE_JSON_ARRAY_GET                     function-like macro
+SDL_dlopennote.h     constant   SDL_DLNOTE_UNIQUE_NAME                        not a constant expression: use of undeclared identifier 's_SDL_dlopen_note_1448'
+SDL_dlopennote.h     constant   SDL_ELF_NOTE_DLOPEN                           function-like macro
+SDL_dlopennote.h     constant   SDL_ELF_NOTE_INTERNAL                         function-like macro
+SDL_dlopennote.h     constant   SDL_ELF_NOTE_INTERNAL2                        function-like macro
+SDL_dlopennote.h     constant   SDL_dlopennote_h                              not a constant expression: expected expression
+SDL_endian.h         constant   SDL_Swap16                                    function-like macro
+SDL_endian.h         constant   SDL_Swap16BE                                  function-like macro
+SDL_endian.h         constant   SDL_Swap16LE                                  function-like macro
+SDL_endian.h         constant   SDL_Swap32                                    function-like macro
+SDL_endian.h         constant   SDL_Swap32BE                                  function-like macro
+SDL_endian.h         constant   SDL_Swap32LE                                  function-like macro
+SDL_endian.h         constant   SDL_Swap64                                    function-like macro
+SDL_endian.h         constant   SDL_Swap64BE                                  function-like macro
+SDL_endian.h         constant   SDL_Swap64LE                                  function-like macro
+SDL_endian.h         constant   SDL_SwapFloatBE                               function-like macro
+SDL_endian.h         constant   SDL_SwapFloatLE                               function-like macro
+SDL_endian.h         constant   SDL_endian_h_                                 not a constant expression: expected expression
+SDL_error.h          constant   SDL_InvalidParamError                         function-like macro
+SDL_error.h          constant   SDL_Unsupported                               function-like macro
+SDL_error.h          constant   SDL_error_h_                                  not a constant expression: expected expression
+SDL_error.h          function   SDL_SetErrorV                                 parameter ap: __va_list_tag belongs to the C implementation
+SDL_events.h         constant   SDL_events_h_                                 not a constant expression: expected expression
+SDL_filesystem.h     constant   SDL_filesystem_h_                             not a constant expression: expected expression
+SDL_gamepad.h        constant   SDL_gamepad_h_                                not a constant expression: expected expression
+SDL_gpu.h            constant   SDL_gpu_h_                                    not a constant expression: expected expression
+SDL_guid.h           constant   SDL_guid_h_                                   not a constant expression: expected expression
+SDL_haptic.h         constant   SDL_haptic_h_                                 not a constant expression: expected expression
+SDL_hidapi.h         constant   SDL_hidapi_h_                                 not a constant expression: expected expression
+SDL_hints.h          constant   SDL_hints_h_                                  not a constant expression: expected expression
+SDL_init.h           constant   SDL_init_h_                                   not a constant expression: expected expression
+SDL_iostream.h       constant   SDL_iostream_h_                               not a constant expression: expected expression
+SDL_iostream.h       function   SDL_IOvprintf                                 parameter ap: __va_list_tag belongs to the C implementation
+SDL_joystick.h       constant   SDL_joystick_h_                               not a constant expression: expected expression
+SDL_keyboard.h       constant   SDL_keyboard_h_                               not a constant expression: expected expression
+SDL_keycode.h        constant   SDL_SCANCODE_TO_KEYCODE                       function-like macro
+SDL_keycode.h        constant   SDL_keycode_h_                                not a constant expression: expected expression
+SDL_loadso.h         constant   SDL_loadso_h_                                 not a constant expression: expected expression
+SDL_locale.h         constant   SDL_locale_h                                  not a constant expression: expected expression
+SDL_log.h            constant   SDL_log_h_                                    not a constant expression: expected expression
+SDL_log.h            function   SDL_LogMessageV                               parameter ap: __va_list_tag belongs to the C implementation
+SDL_messagebox.h     constant   SDL_messagebox_h_                             not a constant expression: expected expression
+SDL_metal.h          constant   SDL_metal_h_                                  not a constant expression: expected expression
+SDL_misc.h           constant   SDL_misc_h_                                   not a constant expression: expected expression
+SDL_mouse.h          constant   SDL_BUTTON_MASK                               function-like macro
+SDL_mouse.h          constant   SDL_mouse_h_                                  not a constant expression: expected expression
+SDL_mutex.h          constant   SDL_ACQUIRE                                   function-like macro
+SDL_mutex.h          constant   SDL_ACQUIRED_AFTER                            function-like macro
+SDL_mutex.h          constant   SDL_ACQUIRED_BEFORE                           function-like macro
+SDL_mutex.h          constant   SDL_ACQUIRE_SHARED                            function-like macro
+SDL_mutex.h          constant   SDL_ASSERT_CAPABILITY                         function-like macro
+SDL_mutex.h          constant   SDL_ASSERT_SHARED_CAPABILITY                  function-like macro
+SDL_mutex.h          constant   SDL_CAPABILITY                                function-like macro
+SDL_mutex.h          constant   SDL_EXCLUDES                                  function-like macro
+SDL_mutex.h          constant   SDL_GUARDED_BY                                function-like macro
+SDL_mutex.h          constant   SDL_NO_THREAD_SAFETY_ANALYSIS                 not a constant expression: expected expression
+SDL_mutex.h          constant   SDL_PT_GUARDED_BY                             function-like macro
+SDL_mutex.h          constant   SDL_RELEASE                                   function-like macro
+SDL_mutex.h          constant   SDL_RELEASE_GENERIC                           function-like macro
+SDL_mutex.h          constant   SDL_RELEASE_SHARED                            function-like macro
+SDL_mutex.h          constant   SDL_REQUIRES                                  function-like macro
+SDL_mutex.h          constant   SDL_REQUIRES_SHARED                           function-like macro
+SDL_mutex.h          constant   SDL_RETURN_CAPABILITY                         function-like macro
+SDL_mutex.h          constant   SDL_SCOPED_CAPABILITY                         not a constant expression: expected expression
+SDL_mutex.h          constant   SDL_THREAD_ANNOTATION_ATTRIBUTE__             function-like macro
+SDL_mutex.h          constant   SDL_TRY_ACQUIRE                               function-like macro
+SDL_mutex.h          constant   SDL_TRY_ACQUIRE_SHARED                        function-like macro
+SDL_mutex.h          constant   SDL_mutex_h_                                  not a constant expression: expected expression
+SDL_oldnames.h       header     SDL_oldnames.h                                excluded by header filter
+SDL_pen.h            constant   SDL_pen_h_                                    not a constant expression: expected expression
+SDL_pixels.h         constant   SDL_BITSPERPIXEL                              function-like macro
+SDL_pixels.h         constant   SDL_BYTESPERPIXEL                             function-like macro
+SDL_pixels.h         constant   SDL_COLORSPACECHROMA                          function-like macro
+SDL_pixels.h         constant   SDL_COLORSPACEMATRIX                          function-like macro
+SDL_pixels.h         constant   SDL_COLORSPACEPRIMARIES                       function-like macro
+SDL_pixels.h         constant   SDL_COLORSPACERANGE                           function-like macro
+SDL_pixels.h         constant   SDL_COLORSPACETRANSFER                        function-like macro
+SDL_pixels.h         constant   SDL_COLORSPACETYPE                            function-like macro
+SDL_pixels.h         constant   SDL_DEFINE_COLORSPACE                         function-like macro
+SDL_pixels.h         constant   SDL_DEFINE_PIXELFORMAT                        function-like macro
+SDL_pixels.h         constant   SDL_DEFINE_PIXELFOURCC                        function-like macro
+SDL_pixels.h         constant   SDL_ISCOLORSPACE_FULL_RANGE                   function-like macro
+SDL_pixels.h         constant   SDL_ISCOLORSPACE_LIMITED_RANGE                function-like macro
+SDL_pixels.h         constant   SDL_ISCOLORSPACE_MATRIX_BT2020_NCL            function-like macro
+SDL_pixels.h         constant   SDL_ISCOLORSPACE_MATRIX_BT601                 function-like macro
+SDL_pixels.h         constant   SDL_ISCOLORSPACE_MATRIX_BT709                 function-like macro
+SDL_pixels.h         constant   SDL_ISPIXELFORMAT_10BIT                       function-like macro
+SDL_pixels.h         constant   SDL_ISPIXELFORMAT_ALPHA                       function-like macro
+SDL_pixels.h         constant   SDL_ISPIXELFORMAT_ARRAY                       function-like macro
+SDL_pixels.h         constant   SDL_ISPIXELFORMAT_FLOAT                       function-like macro
+SDL_pixels.h         constant   SDL_ISPIXELFORMAT_FOURCC                      function-like macro
+SDL_pixels.h         constant   SDL_ISPIXELFORMAT_INDEXED                     function-like macro
+SDL_pixels.h         constant   SDL_ISPIXELFORMAT_PACKED                      function-like macro
+SDL_pixels.h         constant   SDL_PIXELFLAG                                 function-like macro
+SDL_pixels.h         constant   SDL_PIXELLAYOUT                               function-like macro
+SDL_pixels.h         constant   SDL_PIXELORDER                                function-like macro
+SDL_pixels.h         constant   SDL_PIXELTYPE                                 function-like macro
+SDL_pixels.h         constant   SDL_pixels_h_                                 not a constant expression: expected expression
+SDL_platform.h       constant   SDL_platform_h_                               not a constant expression: expected expression
+SDL_platform_defines.h constant   SDL_platform_defines_h_                       not a constant expression: expected expression
+SDL_power.h          constant   SDL_power_h_                                  not a constant expression: expected expression
+SDL_process.h        constant   SDL_process_h_                                not a constant expression: expected expression
+SDL_properties.h     constant   SDL_properties_h_                             not a constant expression: expected expression
+SDL_properties.h     function   SDL_SetPointerPropertyWithCleanup             callback without exactly one void * userdata parameter
+SDL_rect.h           constant   SDL_rect_h_                                   not a constant expression: expected expression
+SDL_render.h         constant   SDL_render_h_                                 not a constant expression: expected expression
+SDL_scancode.h       constant   SDL_scancode_h_                               not a constant expression: expected expression
+SDL_sensor.h         constant   SDL_sensor_h_                                 not a constant expression: expected expression
+SDL_stdinc.h         header     SDL_stdinc.h                                  excluded by header filter
+SDL_storage.h        constant   SDL_storage_h_                                not a constant expression: expected expression
+SDL_surface.h        constant   SDL_MUSTLOCK                                  function-like macro
+SDL_surface.h        constant   SDL_surface_h_                                not a constant expression: expected expression
+SDL_system.h         constant   SDL_system_h_                                 not a constant expression: expected expression
+SDL_system.h         function   SDL_SetX11EventHook                           callback type SDL_X11EventHook, parameter 1: _XEvent belongs to the C implementation
+SDL_thread.h         constant   SDL_BeginThreadFunction                       value type not representable
+SDL_thread.h         constant   SDL_CreateThread                              function-like macro
+SDL_thread.h         constant   SDL_CreateThreadWithProperties                function-like macro
+SDL_thread.h         constant   SDL_EndThreadFunction                         value type not representable
+SDL_thread.h         constant   SDL_thread_h_                                 not a constant expression: expected expression
+SDL_thread.h         function   SDL_CreateThreadRuntime                       more than one callback parameter
+SDL_thread.h         function   SDL_CreateThreadWithPropertiesRuntime         more than one callback parameter
+SDL_thread.h         function   SDL_SetTLS                                    callback without exactly one void * userdata parameter
+SDL_time.h           constant   SDL_time_h_                                   not a constant expression: expected expression
+SDL_timer.h          constant   SDL_MS_TO_NS                                  function-like macro
+SDL_timer.h          constant   SDL_NS_TO_MS                                  function-like macro
+SDL_timer.h          constant   SDL_NS_TO_SECONDS                             function-like macro
+SDL_timer.h          constant   SDL_NS_TO_US                                  function-like macro
+SDL_timer.h          constant   SDL_SECONDS_TO_NS                             function-like macro
+SDL_timer.h          constant   SDL_US_TO_NS                                  function-like macro
+SDL_timer.h          constant   SDL_timer_h_                                  not a constant expression: expected expression
+SDL_touch.h          constant   SDL_touch_h_                                  not a constant expression: expected expression
+SDL_tray.h           constant   SDL_tray_h_                                   not a constant expression: expected expression
+SDL_version.h        constant   SDL_VERSIONNUM                                function-like macro
+SDL_version.h        constant   SDL_VERSIONNUM_MAJOR                          function-like macro
+SDL_version.h        constant   SDL_VERSIONNUM_MICRO                          function-like macro
+SDL_version.h        constant   SDL_VERSIONNUM_MINOR                          function-like macro
+SDL_version.h        constant   SDL_VERSION_ATLEAST                           function-like macro
+SDL_version.h        constant   SDL_version_h_                                not a constant expression: expected expression
+SDL_video.h          constant   SDL_WINDOWPOS_CENTERED_DISPLAY                function-like macro
+SDL_video.h          constant   SDL_WINDOWPOS_ISCENTERED                      function-like macro
+SDL_video.h          constant   SDL_WINDOWPOS_ISUNDEFINED                     function-like macro
+SDL_video.h          constant   SDL_WINDOWPOS_UNDEFINED_DISPLAY               function-like macro
+SDL_video.h          constant   SDL_video_h_                                  not a constant expression: expected expression
+SDL_video.h          function   SDL_EGL_SetAttributeCallbacks                 more than one callback parameter
+
+Notes
+=====
